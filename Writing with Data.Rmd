@@ -63,7 +63,6 @@ y = (x > 0),
 z = abs(x)
 )
 
-ggplot(df, aes(x = z)) + geom_histogram()
 
 med = median(df$z)
 ```
